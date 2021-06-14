@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
 
   spec.name         = "CalendarControl"
   spec.version      = "1.0.2"
-  spec.summary      = "A short description of CalendarControl. which is just a calendar control but it is calendar control"
+  spec.summary      = "ARC and GCD Compatible Reachability Class for iOS and OS X."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,7 +25,7 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
-  CalendarControl
+  A short description of CalendarControl. which is just a calendar control but it is calendar control. A short description of CalendarControl. which is just a calendar control but it is calendar control. A short description of CalendarControl. which is just a calendar control but it is calendar control
                    DESC
 
   spec.homepage     = "https://github.com/irrevaldyb/CalendarControl"
@@ -65,7 +65,8 @@ Pod::Spec.new do |spec|
   #
 
   # spec.platform     = :ios
-  # spec.platform     = :ios, "5.0"
+  spec.platform     = :ios, "14.5"
+  spec.swift_version = '5.0'
 
   #  When using multiple platforms
   # spec.ios.deployment_target = "5.0"
@@ -80,7 +81,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/irrevaldyb/CalendarControl.git", :tag => "1.0.0" }
+  spec.source       = { :git => "https://github.com/irrevaldyb/CalendarControl.git", :tag => "1.0.2" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
