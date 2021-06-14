@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "CalendarControl"
-  spec.version      = "1.0.3"
+  spec.version      = "1.0.4"
   spec.summary      = "ARC and GCD Compatible Reachability Class for iOS and OS X."
 
   # This description is used to generate tags and improve search results.
@@ -65,7 +65,7 @@ Pod::Spec.new do |spec|
   #
 
   # spec.platform     = :ios
-  spec.platform     = :ios, "14.5"
+  spec.platform     = :ios, "14.1"
   spec.swift_version = '5.0'
 
   #  When using multiple platforms
@@ -81,7 +81,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/irrevaldyb/CalendarControl.git", :tag => "1.0.3" }
+  spec.source       = { :git => "https://github.com/irrevaldyb/CalendarControl.git", :tag => "1.0.4" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
